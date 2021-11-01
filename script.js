@@ -33,11 +33,17 @@ const input = prompt("do you like your trip? enter yes or no")
 let no = false
 if (no){
     console.log (generateRandomSelection)   
+
 }
     else{
-        alert("Have a fun trip!")
+        alert("these are better options")
     }
     
-
-
+const inputTwo = prompt("confirm complete options, select yes or no")
+    if (no){
+        console.log(generateRandomSelection)
+    }
+    else{
+        console.log("This is your completed trip")
+    }
 
