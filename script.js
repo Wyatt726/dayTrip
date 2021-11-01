@@ -1,9 +1,9 @@
 
 // the arrays of trip options
 let cities = ["NYC", "Baltimore" , "NOLA", "Raleigh", "Dallas", "Tulsa", "Oklahoma City", "Salt Lake City"];
-let restraunt = ["pizza", "crab cakes" , "gumbo", "bbq"];
-let vic = ["walkin", "train" , "vespa", "razor scooter"];
-let ent= ["stand-Up Comedy", "Movies", "Downtown Bars", "Sight Seeing"];
+let restraunt = ["pizza", "crab cakes" , "gumbo", "bbq", "mexican", "Thai", "Chinese", "Burgers"];
+let vic = ["walkin", "train" , "vespa", "razor scooter", "Car", "Taxi", "Ferrari"];
+let ent= ["stand-Up Comedy", "Movies", "Downtown Bars", "Sight Seeing", "Musical", "Wine Tasting", "brewery"];
 
 // function that picks random element from array
 function generateRandomSelection(array){
@@ -34,7 +34,7 @@ if (input === "1"){
     let randomOptions = [randomCities, randomRestraunt, randomVic, randomEntertainment]
     console.log(randomOptions[0])
     alert("your destination will now be " + randomOptions[0]) 
-    let string = ("you will be in " + randomCities + " eating " + randomRestraunt + ", you will get there by " + randomVic + " and enjoy " +randomEntertainment);
+    let string = ("you will be in " + randomCities + " and eating " + randomRestraunt + " , you will get there by " + randomVic + " and enjoy " +randomEntertainment);
     alert(string)
     newOptions(randomOptions)
 }
